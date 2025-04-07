@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <style>
+        body{
+            background-color: #fff3e0;;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div.main{
+            font-size: 37px;
+            margin: 65px;
+            text-align: center;
+            color: #8d6e63;
+            font-weight: 650;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+            gap: 20px;
+            max-width: 90%;
+            text-align: center;
+            margin-left: 70px;
+            padding-top: 20px;
+            font-family:'Times New Roman', Times, serif;
+            background-color: wheat;
+        }
+        .grid {
+            background-color: black;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(218, 40, 40, 0.1);
+            padding-bottom: 20px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+        .p:hover img{
+            transform: scale(1.2);
+
+
+        }
+        .grid p {
+            font-size: 150px;
+            color:#5A3E2B;
+            margin-top: 10px;
+            padding-right: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        Activities
+    </div>
+    <div class="container">
+        <div class="p">
+            <img src="pray.jpg" height="250px" style="padding-left: 50px; border-radius: 10px;">
+            <p>"Our interns begin each day with a moment of silent reflection, fostering focus and intention."</p>
+        </div>
+
+        <div class="p">
+            <img src="alumni.jpg" height="250px" style="border-radius: 10px;">
+            <p>Alumni mentor interns, sharing industry insights and career guidance, fostering valuable connections and accelerating professional growth through collaborative support.
+            </p>
+        </div>
+        <div class="p">
+            <img src="teamworks.jpg" height="260px" style="border-radius: 10px;">
+            <p>"Interns collaborate in teams, applying skills like web development and Java coding to real-world projects, fostering practical experience."
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
